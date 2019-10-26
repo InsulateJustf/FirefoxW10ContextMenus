@@ -17,11 +17,11 @@
 {
 	:root
 	{
-		--context-background: #eeeeee; /* Was #f2f2f2 in 1809 */
+		--context-background: #f2f2f2;
 		--context-border: #a0a0a0;
 		--context-disabled: #6d6d6d;
 		--context-front: #000000;
-		--context-hover: #ffffff; /* Was #d9d9d9 in 1809 */
+		--context-hover: #d9d9d9;
 		--context-separator: #919191;
 	}
 }
@@ -77,9 +77,9 @@
 	-moz-appearance: none !important;
 	background-color: var(--context-background) !important;
 	border: 1px solid var(--context-border) !important;
-	padding: 4px 2px 4px 2px !important;
+	padding: 2px 2px 2px 2px !important;
 	margin: 0px 0px 0px 0px !important;
-	min-width: 226px !important;
+	min-width: 191px !important;
 }
 
 #back-button > menupopup :-moz-any(menuitem, menu),
@@ -106,7 +106,7 @@
 	-moz-appearance: none !important;
 	color: var(--context-front) !important;
 	padding: 0px 0px 2px 0px !important;
-	min-height: 25px !important;
+	min-height: 22px !important;
 }
 
 #back-button > menupopup menugroup,
@@ -158,7 +158,7 @@
 	-moz-appearance: none !important;
 	border: none !important;
 	padding: 0.5px 0px 0.5px 0px !important;
-	margin: 3px 8px 3px 8px !important;
+	margin: 2px 8px 2px 8px !important;
 	background-color: var(--context-separator) !important;
 }
 
